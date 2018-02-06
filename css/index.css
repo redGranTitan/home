@@ -1,0 +1,171 @@
+@font-face {
+    font-family: Avenir;
+    src: url("../fonts/AvenirLTStd-Light.otf");
+}
+
+*{
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	color: inherit; 
+}
+
+a:link {   
+ 	text-decoration:none;   
+}
+
+html{
+	height: 100%;
+}
+
+body{
+	font-size:1rem;	
+	font-family:Avenir, Verdana, Geneva, sans-serif;
+	-moz-font-smoothing: antialiased;
+	-webkit-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+	line-height:1.5em;
+	color:#424242;
+}
+
+header{
+	height:25rem;
+	width:100%;
+	display:flex;
+	align-items:center;
+	justify-content:space-around;
+}
+
+header img{
+	height:15em;
+}
+
+section{
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+#invitacion{
+	font-size:1.2rem;
+	color:white;
+	width:100%;
+	padding:4rem 2rem;
+	line-height: 1.5em;
+	background-image:linear-gradient(to right, rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url("../img/mountain.jpg");
+	background-size:cover;
+	background-attachment:fixed;
+	background-position:center center;
+	background-repeat:no-repeat;
+	display: flex;
+	flex-direction:column;
+	align-items: center;
+}
+
+#invitacion div{
+	max-width: 50rem;
+}
+
+#caracteristicas {
+	padding:1rem;
+	padding-top: 2rem;
+	max-width: 50rem;
+}
+
+#caracteristicas ul {
+	padding-left: 2em;
+}
+
+#contactenos{
+	padding-top:2rem;
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+	width:100%;
+}
+
+	#contactenos-title{
+		font-size:1.2rem;
+		text-align:center;
+	}
+
+	#contactenos-formulario{
+		width:100%;
+		max-width: 30rem;
+		padding:1rem;
+		padding-top:0;
+	}
+
+	#contactenos-formulario input{
+		border:1px solid #666;
+		font-family:Avenir, sans-serif;
+		font-size:1rem;
+		line-height:1.5rem;
+		padding:0.5rem;
+		display:block;
+		width:100%;
+		margin-top:1rem;
+	}
+
+	#contactenos-formulario input[type="submit"]{
+		border:none;
+		background-color: #666;
+		color:white;
+	}
+
+#tiempo{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+	#tiempo > div{
+		width: 20rem;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.numero{
+		font-size: 2rem;
+		font-weight: bold;
+	}
+
+footer{
+	margin-top:4rem;
+	padding:2rem;
+	background-color: #0a9efc;
+	color:white;
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content: space-between;
+}
+
+#index_social{
+	margin:0.25rem;
+	display:flex;
+	flex-direction:row;
+}
+#index_social > a{
+	margin:0.25rem;
+	width:2.5rem;
+	height:2.5rem;
+	background-position:center center;
+	background-size:contain;
+	background-repeat:no-repeat;
+}
+
+#footer_logo_company{
+	display: none;
+}
+
+#footer_logo_img img {
+	height: 4rem;
+}
+	
